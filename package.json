@@ -1,6 +1,6 @@
 {
   "name": "waterline-dynamodb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "dynamodb adapter for Sails / Waterline",
   "main": "adapter.js",
   "scripts": {
