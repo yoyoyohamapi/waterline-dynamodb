@@ -1,0 +1,7 @@
+--require should
+--reporter dot
+--timeout 10000
+--ui bdd
+--slow 20
+--growl
+--globals token
