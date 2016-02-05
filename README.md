@@ -68,19 +68,11 @@ This adapter exposes the following methods:
 
 ###### `find()`
 
-+ **Status**
-
 ###### `create()`
-
-+ **Status**
 
 ###### `update()`
 
-+ **Status**
-
 ###### `destroy()`
-
-+ **Status**
 
 ### Example
 
