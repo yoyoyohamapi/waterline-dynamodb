@@ -14,7 +14,7 @@ Strict adherence to an adapter specification enables the (re)use of built-in gen
 To install this adapter, run:
 
 ```sh
-$ npm install waterline-dynamodb
+$ npm install waterline-dynamodb --save
 ```
 
 ### Set up
@@ -30,7 +30,9 @@ $ npm install waterline-dynamodb
     accessKeyId: 'yout accessKeyId',
     secretAccessKey: 'your secretAccessKey',
     region: 'your region',
-    endpoint: 'your endpoint'
+    endpoint: 'your endpoint',
+    readCapacity: 5,
+    writeCapacity: 5
   }
 // ...
 ```
@@ -63,7 +65,7 @@ types: {
 ```
 
 ### Usage
-
+ 
 This adapter exposes the following methods:
 
 ###### `find()`
